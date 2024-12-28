@@ -1,0 +1,24 @@
+<odoo>
+        <!-- Add Dashboard menu under Receivables -->
+    <menuitem
+            id="menu_sale_dashboard"
+            name="Dashboard"
+            parent="receivables_menu"
+            action="account.open_account_journal_dashboard_kanban"
+            sequence="1"/>
+
+        <!-- Add Dashboard menu under Payables -->
+    <menuitem
+            id="menu_sale_dashboard"
+            name="Dashboard"
+            parent="payable_menu"
+            action="account.open_account_journal_dashboard_kanban"
+            sequence="1"/>
+        <!-- Add Dashboard menu under General Accounting -->
+    <menuitem
+            id="menu_sale_dashboard"
+            name="Dashboard"
+            parent="general_accounting_menu"
+            action="account.open_account_journal_dashboard_kanban"
+            sequence="1"/>
+</odoo>

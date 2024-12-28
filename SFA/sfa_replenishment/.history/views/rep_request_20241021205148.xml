@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_sfa_rep_request_form" model="ir.ui.view">
+        <field name="name">sfa.rep.request.form</field>
+        <field name="model">sfa.rep.request</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,replenished,submitted,cancelled" />
+
+                    <button name="action_auto_replenish" string="Replenish" type="object" class="btn-primary" invisible="state != 'draft'" />
+
+                    <button string="Submit" class="oe_highlight" type="object" name="action_submit_and_create_picking" invisible="state != 'replenished'" />
+
+                    <button name="action_cancel" string="Cancel" type="object" invisible="state == 'cancelled'" />
+
+
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="temp_name" invisible="('state' , '!=' , 'draft')" />
+                            <field name="name" />
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="salesman" readonly="auto_replenish_done" />
+                            <field name="picking_type_id"/>
+                            <field name="location_id"/>
+                            <field name="location_dest_id"/>
+                            <field name="scheduled_date" readonly="state == 'submitted'" />
+                            <field name="branch_id" readonly="state == 'submitted'" />
+                            <field name="period" invisible='1' />
+                            <field name="allowed_route_ids" invisible='1' />
+                            <field name="is_submitted" invisible='1' />
+                        </group>
+                        <group>
+                            <field name="origin" readonly="state == 'submitted'" />
+                            <field name="replenishment_method" readonly="auto_replenish_done" />
+                            <field name="standard_template" readonly="replenishment_method != 'standard template' or auto_replenish_done" />
+                            <field name="target_name" readonly="replenishment_method != 'salesman target' or auto_replenish_done" />
+                            <field name="route" readonly="replenishment_method != 'customer consumption' or auto_replenish_done" />
+                            <field name="type"/>
+                            <field name="auto_replenish_done" invisible="1" />
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Operations">
+                            <field name="product_line_ids" readonly="state in ['submitted']">
+                                <tree editable="bottom" delete="state not in ['submitted']">
+                                    <field name="product_id" />
+                                    <field name="description" />
+                                    <field name="date" />
+                                    <field name="date_deadline" />
+                                    <field name="product_uom_qty" />
+                                    <field name="product_uom" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_sfa_rep_request_tree" model="ir.ui.view">
+        <field name="name">sfa.rep.request.tree</field>
+        <field name="model">sfa.rep.request</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="salesman" />
+                <field name="picking_type_id" />
+                <field name="location_id" />
+                <field name="location_dest_id" />
+                <field name="scheduled_date" />
+                <field name="origin" />
+                <field name="replenishment_method" />
+                <field name="standard_template" />
+                <field name="target_name" />
+                <field name="route" />
+                <field name="state" />
+                <field name="branch_id" />
+            </tree>
+        </field>
+    </record>
+</odoo>

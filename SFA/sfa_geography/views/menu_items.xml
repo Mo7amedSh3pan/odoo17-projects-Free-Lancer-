@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Main menu item -->
+    <menuitem id="menu_sfa_geography" name="Geography" parent="sale.sale_menu_root" sequence="20" />
+
+    <!-- Region menu -->
+    <record id="action_sfa_region" model="ir.actions.act_window">
+        <field name="name">Regions</field>
+        <field name="res_model">sfa.region</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="menu_sfa_region" name="Regions" parent="menu_sfa_geography" action="action_sfa_region" sequence="10" />
+
+    <!-- Stat menu -->
+    <record id="action_sfa_stat" model="ir.actions.act_window">
+        <field name="name">Stats</field>
+        <field name="res_model">sfa.stat</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="menu_sfa_stat" name="Stats" parent="menu_sfa_geography" action="action_sfa_stat" sequence="20" />
+
+    <!-- City menu -->
+    <record id="action_sfa_city" model="ir.actions.act_window">
+        <field name="name">Cities</field>
+        <field name="res_model">sfa.city</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="menu_sfa_city" name="Cities" parent="menu_sfa_geography" action="action_sfa_city" sequence="30" />
+
+    <!-- Area menu -->
+    <record id="action_sfa_area" model="ir.actions.act_window">
+        <field name="name">Areas</field>
+        <field name="res_model">sfa.area</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="menu_sfa_area" name="Areas" parent="menu_sfa_geography" action="action_sfa_area" sequence="40" />
+
+    <!-- Territory menu -->
+    <record id="action_sfa_territory" model="ir.actions.act_window">
+        <field name="name">Territories</field>
+        <field name="res_model">sfa.territory</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="menu_sfa_territory" name="Territories" parent="menu_sfa_geography" action="action_sfa_territory" sequence="50" />
+</odoo>

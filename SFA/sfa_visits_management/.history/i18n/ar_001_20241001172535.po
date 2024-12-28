@@ -1,0 +1,68 @@
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__create_uid
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__create_date
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__create_date
+msgid "Created on"
+msgstr "تاريخ الإنشاء"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__description
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__display_name
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__id
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__id
+msgid "ID"
+msgstr "الرقم التعريفي"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__write_uid
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__write_uid
+msgid "Last Updated by"
+msgstr "آخر تعديل بواسطة"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__write_date
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__write_date
+msgid "Last Updated on"
+msgstr "آخر تعديل في"
+
+#. module: SFA_Visits_Management
+#: model:ir.actions.act_window,name:SFA_Visits_Management.action_negative_visit_reasons
+#: model:ir.model,name:SFA_Visits_Management.model_visit_negative_reason
+#: model:ir.ui.menu,name:SFA_Visits_Management.menu_negative_visit_reasons
+#: model_terms:ir.ui.view,arch_db:SFA_Visits_Management.view_tree_negative_visit_reasons
+msgid "Negative Visit Reasons"
+msgstr "أسباب الزيارة السلبية"
+
+#. module: SFA_Visits_Management
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_negative_reason__reason_id
+#: model:ir.model.fields,field_description:SFA_Visits_Management.field_visit_return_reason__reason_id
+msgid "Reason ID"
+msgstr "معرف السبب"
+
+#. module: SFA_Visits_Management
+#: model:ir.actions.act_window,name:SFA_Visits_Management.action_return_reasons
+#: model:ir.model,name:SFA_Visits_Management.model_visit_return_reason
+#: model:ir.ui.menu,name:SFA_Visits_Management.menu_return_reasons
+#: model_terms:ir.ui.view,arch_db:SFA_Visits_Management.view_tree_return_reasons
+msgid "Return Reasons"
+msgstr "أسباب العودة"
+
+#. module: SFA_Visits_Management
+#: model:ir.ui.menu,name:SFA_Visits_Management.menu_visit_management
+msgid "Visit Management"
+msgstr "إدارة الزيارات"

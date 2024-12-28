@@ -1,0 +1,42 @@
+<odoo>
+    <menuitem
+            id="menu_customers"
+            name="Customers"
+            parent="receivables_menu"
+            sequence="2"/>
+    <menuitem
+            id="menu_invoices"
+            name="Invoices"
+            parent="menu_customers"
+            sequence="1"
+            action="account.action_move_out_invoice_type"
+    />
+    <menuitem
+            id="menu_credit_notes"
+            name="Credit Notes"
+            parent="menu_customers"
+            sequence="3"
+            action="account.action_move_out_refund_type"
+    />
+    <menuitem
+            id="menu_payments"
+            name="Payments"
+            parent="menu_customers"
+            sequence="4"
+            action="account.action_account_payments"
+    />
+    <menuitem
+            id="menu_product"
+            name="Products"
+            parent="menu_customers"
+            sequence="5"
+            action="account.product_product_action_sellable"
+    />
+    <menuitem
+            id="menu_customer"
+            name="Customers"
+            parent="menu_customers"
+            sequence="6"
+            action="account.res_partner_action_customer"
+    />
+</odoo>

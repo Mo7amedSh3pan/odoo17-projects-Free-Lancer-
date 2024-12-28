@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="action_negative_visit_reasons" model="ir.actions.act_window">
+        <field name="name">Negative Visit Reasons</field>
+        <field name="res_model">visit.negative.reason</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_return_reasons" model="ir.actions.act_window">
+        <field name="name">Return Reasons</field>
+        <field name="res_model">visit.return.reason</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- ثم قم بتعريف عناصر القائمة -->
+    <menuitem id="menu_visit_management"
+              name="Visit Management"
+              parent="sale.sale_menu_root"
+              action="action_negative_visit_reasons"
+    />
+
+    <menuitem id="menu_negative_visit_reasons"
+              name="Negative Visit Reasons"
+              parent="menu_visit_management"
+              action="action_negative_visit_reasons"
+    />
+
+    <menuitem id="menu_return_reasons"
+              name="Return Reasons"
+              parent="menu_visit_management"
+              action="action_return_reasons"
+    />
+
+</odoo>

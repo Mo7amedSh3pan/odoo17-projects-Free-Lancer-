@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_employee_form_inherit_customer_update" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit.customer.update</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Sales Setting" name="sales_setting">
+                    <group>
+                        <group>
+                            <field name="Printer"/>
+                            <field name="Default_Replenish_method"/>
+                            <field name="Replenish_Operation_Type" options="{'no_create': True, 'no_create_edit': True}"/>
+                            <field name="Offloading_Operation_Type"/>
+                            <field name="O2C_delivery_Operation_Type"/>
+                        </group>
+                        <group>
+                            <field name="Default_Territory"/>
+                            <field name="Warehouse"/>
+                            <field name="Cash_Limit"/>
+                            <field name="Van_Number"/>
+                            <field name="Journey_plan_type"/>
+                            <field name="Enable_order_out_of_route"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

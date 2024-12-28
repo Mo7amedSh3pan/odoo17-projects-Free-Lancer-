@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_week_day,access_week_day,model_week_day,base.group_user,1,1,1,1
+access_customer_type,access_customer_type,model_customer_type,base.group_user,1,1,1,1
+access_customer_category,access_customer_category,model_customer_category,base.group_user,1,1,1,1

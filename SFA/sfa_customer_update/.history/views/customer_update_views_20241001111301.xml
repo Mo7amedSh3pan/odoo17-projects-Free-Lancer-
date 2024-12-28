@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_partner_form_inherit_customer_update" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.customer.update</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Sales Setting" name="sales_setting">
+                    <button name="action_show_map" string="Show in Map" type="object" class="oe_highlight"/>
+                    <group>
+                        <group>
+                            <field name="latitude"/>
+                            <field name="longitude"/>
+                            <field name="customer_type_id"/>
+                            <field name="customer_category_id"/>
+                        </group>
+                        <group>
+                            <label for="open_close_time_start"/>
+                            <div class="o_row">
+                                <field name="open_close_time_start" widget="float_time" class="oe_inline"/>
+                                <field name="open_close_time_start_ampm" class="oe_inline"/>
+                            </div>
+                            <label for="open_close_time_end"/>
+                            <div class="o_row">
+                                <field name="open_close_time_end" widget="float_time" class="oe_inline"/>
+                                <field name="open_close_time_end_ampm" class="oe_inline"/>
+                            </div>
+
+                            <field name="territory_id"/>
+                            <field name="working_days" widget='many2many_tags' options="{'no_create': True, 'no_create_edit': True, 'no_open': True}"/>
+                        </group>
+                        <group string='visit time preference'>
+                            <label for="visit_time_preference_from"/>
+                            <div class="o_row">
+                                <field name="visit_time_preference_from" widget="float_time" class="oe_inline"/>
+                                <field name="visit_time_preference_from_ampm" class="oe_inline"/>
+                            </div>
+                            <label for="visit_time_preference_to"/>
+                            <div class="o_row">
+                                <field name="visit_time_preference_to" widget="float_time" class="oe_inline"/>
+                                <field name="visit_time_preference_to_ampm" class="oe_inline"/>
+                            </div>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+
+
+
+    <record id="customer_type_view_tree" model="ir.ui.view">
+        <field name="name">customer_type.view.tree</field>
+        <field name="model">customer.type</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name='user_id'/>
+                <field name='name'/>
+                <!-- <field name='company_id'/> -->
+            </tree>
+        </field>
+    </record>
+
+    <record id="customer_category_view_tree" model="ir.ui.view">
+        <field name="name">customer_category.view.tree</field>
+        <field name="model">customer.category</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name='user_id'/>
+                <field name='name'/>
+<field name='company_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="customer_type_action" model="ir.actions.act_window">
+        <field name="name">customer type</field>
+        <field name="res_model">customer.type</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="customer_category_action" model="ir.actions.act_window">
+        <field name="name">customer category</field>
+        <field name="res_model">customer.category</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem id="customer_type_menu" name="Customer Type" action="customer_type_action" parent="sale.menu_sale_config"/>
+
+    <menuitem id="customer_category_menu" name="Customer Category" action="customer_category_action" parent="sale.menu_sale_config"/>
+
+</odoo>

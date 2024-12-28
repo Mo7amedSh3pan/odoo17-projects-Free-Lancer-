@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_location_form_inherit" model="ir.ui.view">
+        <field name="name">stock.location.form.inherit</field>
+        <field name="model">stock.location</field>
+        <field name="inherit_id" ref="stock.view_location_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='replenish_location']" position="after">
+                <field name="is_van_location"/>
+                <field name="is_salesman_location"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="fleet_vehicle_view_form_inherit" model="ir.ui.view">
+        <field name="name">fleet.vehicle.form.inherit</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='next_assignation_date']" position="after">
+                <field name="Warehouse_ids"/>
+                <field name="capacity_qty"/>
+                <field name="capacity_plt"/>
+                <field name="capacity_kg"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

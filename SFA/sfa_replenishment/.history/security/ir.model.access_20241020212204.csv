@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sfa_standard_template,access_sfa_standard_template,model_sfa_standard_template,base.group_user,1,1,1,1
+access_sfa_standard_template_product,access_sfa_standard_template_product,model_sfa_standard_template_product,base.group_user,1,1,1,1
+access_sfa_rep_request,access_sfa_rep_request,model_sfa_rep_request,base.group_user,1,1,1,1
+access_product_lines,access_product_lines,model_product_lines,base.group_user,1,1,1,1

@@ -1,0 +1,246 @@
+<odoo>
+    <!-- Add Reports menu -->
+
+    <!-- #################################    Start Receivable Menus    ################################# -->
+
+    <menuitem
+            id="menu_reports_receivables"
+            name="Reports"
+            parent="receivables_menu"
+            sequence="4"
+    />
+
+    <menuitem
+            id="menu_partner_ledger_receivables"
+            name="Partner Ledger"
+            parent="menu_reports_receivables"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_partner_ledger_menu"
+    />
+    <menuitem
+            id="menu_aged_receivables_receivables"
+            name="Aged Receivables"
+            parent="menu_reports_receivables"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_aged_receivable"
+    />
+    <menuitem
+            id="menu_invoices_analysis_receivables"
+            name="Invoices Analysis"
+            parent="menu_reports_receivables"
+            sequence="3"
+            action="account.action_account_invoice_report_all"
+    />
+    <menuitem
+            id="menu_tax_report_receivables"
+            name="Tax Report"
+            parent="menu_reports_receivables"
+            sequence="4"
+            action="accounting_pdf_reports.action_account_tax_report"
+    />
+    <!-- #################################    End Receivable Menus    ################################# -->
+
+    <!-- #################################    Start Payable Menus    ################################# -->
+
+    <menuitem
+            id="menu_reports_payable"
+            name="Reports"
+            parent="payable_menu"
+            sequence="4"
+    />
+
+    <menuitem
+            id="menu_partner_ledger_payable"
+            name="Partner Ledger"
+            parent="menu_reports_payable"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_partner_ledger_menu"
+    />
+    <menuitem
+            id="menu_aged_receivables_payable"
+            name="Aged Payable"
+            parent="menu_reports_payable"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_aged_payable"
+    />
+    <menuitem
+            id="menu_invoices_analysis_payable"
+            name="Invoices Analysis"
+            parent="menu_reports_payable"
+            sequence="3"
+            action="account.action_account_invoice_report_all"
+    />
+    <menuitem
+            id="menu_tax_report_payable"
+            name="Tax Report"
+            parent="menu_reports_payable"
+            sequence="4"
+            action="accounting_pdf_reports.action_account_tax_report"
+    />
+    <!-- #################################    End Payable Menus    ################################# -->
+
+    <!-- #################################    Start General Accounts Menus    ################################# -->
+
+    <menuitem
+            id="reports_general_accounting"
+            name="Reports"
+            parent="general_accounting_menu"
+            sequence="3"
+    />
+
+    <menuitem
+            id="menu_finance_reports_general_accounting"
+            name="Financial Reports"
+            parent="reports_general_accounting"
+            sequence="1"
+    />
+    <menuitem
+            id="menu_balance_sheet_general_accounting"
+            name="Balance Sheet"
+            parent="menu_finance_reports_general_accounting"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_report_bs"
+    />
+    <menuitem
+            id="menu_profit_and_loss_general_accounting"
+            name="Profit And Loss"
+            parent="menu_finance_reports_general_accounting"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_report_pl"
+    />
+
+    <menuitem
+            id="menu_partner_reports_general_accounting"
+            name="Partner Reports"
+            parent="reports_general_accounting"
+            sequence="2"
+    />
+    <menuitem
+            id="menu_Partner_Ledger_general_accounting"
+            name="Partner Ledger"
+            parent="menu_partner_reports_general_accounting"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_partner_ledger_menu"
+    />
+    <menuitem
+            id="menu_aged_partner_balance_general_accounting"
+            name="Aged Partner Balance"
+            parent="menu_partner_reports_general_accounting"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_aged_balance_view"
+    />
+    <menuitem
+            id="menu_aged_receivable_general_accounting"
+            name="Aged Receivable"
+            parent="menu_partner_reports_general_accounting"
+            sequence="3"
+            action="accounting_pdf_reports.action_account_aged_receivable"
+    />
+    <menuitem
+            id="menu_aged_payable_general_accounting"
+            name="Aged Payable"
+            parent="menu_partner_reports_general_accounting"
+            sequence="4"
+            action="accounting_pdf_reports.action_account_aged_payable"
+    />
+
+    <menuitem
+            id="menu_audit_reports_general_accounting"
+            name="Audit Reports"
+            parent="reports_general_accounting"
+            sequence="3"
+    />
+    <menuitem
+            id="menu_general_Ledger_general_accounting"
+            name="General Ledger"
+            parent="menu_audit_reports_general_accounting"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_general_ledger_menu"
+    />
+    <menuitem
+            id="menu_trial_balance_general_accounting"
+            name="Trial Balance"
+            parent="menu_audit_reports_general_accounting"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_balance_menu"
+    />
+    <menuitem
+            id="menu_tax_report_general_accounting"
+            name="Tax Report"
+            parent="menu_audit_reports_general_accounting"
+            sequence="3"
+            action="accounting_pdf_reports.action_account_tax_report"
+    />
+    <menuitem
+            id="menu_journals_audit_general_accounting"
+            name="Journals Audit"
+            parent="menu_audit_reports_general_accounting"
+            sequence="4"
+            action="accounting_pdf_reports.action_account_print_journal_menu"
+    />
+
+    <menuitem
+            id="menu_daily_reports_general_accounting"
+            name="Daily Reports"
+            parent="reports_general_accounting"
+            sequence="4"
+    />
+    <menuitem
+            id="menu_day_book_general_accounting"
+            name="Day Book"
+            parent="menu_daily_reports_general_accounting"
+            sequence="1"
+            action="om_account_daily_reports.action_account_daybook_menu"
+    />
+    <menuitem
+            id="menu_cash_book_general_accounting"
+            name="Cash Book"
+            parent="menu_daily_reports_general_accounting"
+            sequence="2"
+            action="om_account_daily_reports.action_account_cashbook_menu"
+    />
+    <menuitem
+            id="menu_bank_book_general_accounting"
+            name="Bank Book"
+            parent="menu_daily_reports_general_accounting"
+            sequence="3"
+            action="om_account_daily_reports.action_account_bankbook_menu"
+    />
+
+    <menuitem
+            id="menu_management_general_accounting"
+            name="Management"
+            parent="reports_general_accounting"
+            sequence="5"
+    />
+    <menuitem
+            id="menu_invoice_analysis_general_accounting"
+            name="Invoice Analysis"
+            parent="menu_management_general_accounting"
+            sequence="1"
+            action="account.action_account_invoice_report_all"
+    />
+    <menuitem
+            id="menu_analytic_reporting_general_accounting"
+            name="Analytic Reporting"
+            parent="menu_management_general_accounting"
+            sequence="2"
+            action="account.action_analytic_reporting"
+    />
+    <menuitem
+            id="menu_budget_analysis_general_accounting"
+            name="Budget Analysis"
+            parent="menu_management_general_accounting"
+            sequence="3"
+            action="om_account_budget.act_crossovered_budget_lines_view"
+    />
+    <menuitem
+            id="menu_assets_general_accounting"
+            name="Assets"
+            parent="menu_management_general_accounting"
+            sequence="4"
+            action="om_account_asset.action_asset_asset_report"
+    />
+    <!-- #################################    End General Accounts Menus    ################################# -->
+
+</odoo>

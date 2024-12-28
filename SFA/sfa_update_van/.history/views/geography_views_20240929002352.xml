@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Region views -->
+    <record id="view_sfa_region_tree" model="ir.ui.view">
+        <field name="name">sfa.region.tree</field>
+        <field name="model">sfa.region</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom" default_order="name">
+                <field name="code" width="40px"/>
+                <field name="name" width="150px"/>
+                <field name="description" width="300px"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sfa_region_form" model="ir.ui.view">
+        <field name="name">sfa.region.form</field>
+        <field name="model">sfa.region</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Region Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Stat views -->
+    <record id="view_sfa_stat_tree" model="ir.ui.view">
+        <field name="name">sfa.stat.tree</field>
+        <field name="model">sfa.stat</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="code" width="40px"/>
+                <field name="name" width="100px"/>
+                <field name="region_id" width="100px"/>
+                <field name="description" width="200px"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sfa_stat_form" model="ir.ui.view">
+        <field name="name">sfa.stat.form</field>
+        <field name="model">sfa.stat</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Stat Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="region_id"/>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- City views -->
+    <record id="view_sfa_city_tree" model="ir.ui.view">
+        <field name="name">sfa.city.tree</field>
+        <field name="model">sfa.city</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="code" width="50px"/>
+                <field name="name" width="150px"/>
+                <field name="stat_id" width="120px"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sfa_city_form" model="ir.ui.view">
+        <field name="name">sfa.city.form</field>
+        <field name="model">sfa.city</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="City Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="stat_id"/>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Area views -->
+    <record id="view_sfa_area_tree" model="ir.ui.view">
+        <field name="name">sfa.area.tree</field>
+        <field name="model">sfa.area</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="code" width="50px"/>
+                <field name="name" width="150px"/>
+                <field name="city_id" width="120px"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sfa_area_form" model="ir.ui.view">
+        <field name="name">sfa.area.form</field>
+        <field name="model">sfa.area</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Area Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="city_id"/>
+                        </group>
+                        <group>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Territory views -->
+    <record id="view_sfa_territory_tree" model="ir.ui.view">
+        <field name="name">sfa.territory.tree</field>
+        <field name="model">sfa.territory</field>
+        <field name="arch" type="xml">
+            <tree default_order="name" editable="bottom">
+                <field name="code" width="50%"/>
+                <field name="name" width="150px"/>
+                <field name="region_id" width="120px"/>
+                <field name="stat_id" width="120px"/>
+                <field name="city_id" width="120px"/>
+                <field name="area_id" width="120px"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sfa_territory_form" model="ir.ui.view">
+        <field name="name">sfa.territory.form</field>
+        <field name="model">sfa.territory</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Territory Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="region_id"/>
+                            <field name="stat_id"/>
+                        </group>
+                        <group>
+                            <field name="city_id"/>
+                            <field name="area_id"/>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

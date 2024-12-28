@@ -1,0 +1,25 @@
+<odoo>
+    <!-- Change Sales menu name -->
+    <menuitem id="sale.sale_menu_root" name="Sales Automation"/>
+
+    <!-- Create Receivables menu under Sales -->
+    <menuitem
+            id="receivables_menu"
+            name="Receivables"
+            action="account.open_account_journal_dashboard_kanban"
+    />
+
+    <!-- Create Payables menu under Sales -->
+    <menuitem
+            id="payable_menu"
+            name="Payables"
+    />
+    <!-- Create General Accounting menu under Sales -->
+    <menuitem
+            id="general_accounting_menu"
+            name="General Accounting"
+            action="account.open_account_journal_dashboard_kanban"
+    />
+
+
+</odoo>

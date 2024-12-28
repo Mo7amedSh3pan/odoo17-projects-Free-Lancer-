@@ -1,0 +1,220 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_customer_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 05:27+0000\n"
+"PO-Revision-Date: 2024-10-01 05:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__open_close_time_end_ampm__am
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__open_close_time_start_ampm__am
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__visit_time_preference_from_ampm__am
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__visit_time_preference_to_ampm__am
+msgid "AM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__open_close_time_end_ampm
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__open_close_time_end_ampm
+msgid "Closing Time AM/PM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__company_id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: sfa_customer_update
+#: model:ir.model,name:sfa_customer_update.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__create_uid
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__create_uid
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__create_date
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__create_date
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__customer_category_id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__customer_category_id
+msgid "Customer Category"
+msgstr "فئة العميل"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__customer_type_id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__customer_type_id
+msgid "Customer Type"
+msgstr "نوع العميل"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__name
+msgid "Day"
+msgstr "اليوم"
+
+#. module: sfa_customer_update
+#: model:ir.model,name:sfa_customer_update.model_week_day
+msgid "Day of the Week"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__display_name
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__display_name
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__visit_time_preference_from
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__visit_time_preference_from
+msgid "From"
+msgstr "من"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__id
+msgid "ID"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__write_uid
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__write_uid
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__write_date
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__write_date
+#: model:ir.model.fields,field_description:sfa_customer_update.field_week_day__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__latitude
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__latitude
+msgid "Latitude"
+msgstr "خط العرض"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__longitude
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__longitude
+msgid "Longitude"
+msgstr "خط الطول"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__name
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__name
+msgid "Name"
+msgstr "الإسم"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_category__number
+#: model:ir.model.fields,field_description:sfa_customer_update.field_customer_type__number
+msgid "Number"
+msgstr "الرقم"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__open_close_time_end
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__open_close_time_end
+msgid "Open Close Time End"
+msgstr "توقيت الغلق"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__open_close_time_start
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__open_close_time_start
+msgid "Open Close Time Start"
+msgstr "توقيت الفتح"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__open_close_time_start_ampm
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__open_close_time_start_ampm
+msgid "Opening Time AM/PM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__open_close_time_end_ampm__pm
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__open_close_time_start_ampm__pm
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__visit_time_preference_from_ampm__pm
+#: model:ir.model.fields.selection,name:sfa_customer_update.selection__res_partner__visit_time_preference_to_ampm__pm
+msgid "PM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model_terms:ir.ui.view,arch_db:sfa_customer_update.view_partner_form_inherit_customer_update
+msgid "Sales Setting"
+msgstr "إعدادات المبيعات"
+
+#. module: sfa_customer_update
+#: model_terms:ir.ui.view,arch_db:sfa_customer_update.view_partner_form_inherit_customer_update
+msgid "Show in Map"
+msgstr "عرض من الخريطة"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__territory_id
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__territory_id
+msgid "Territory"
+msgstr "المنطقة"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__visit_time_preference_to
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__visit_time_preference_to
+msgid "To"
+msgstr "إلى"
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__visit_time_preference_from_ampm
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__visit_time_preference_from_ampm
+msgid "Visit Time From AM/PM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__visit_time_preference_to_ampm
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__visit_time_preference_to_ampm
+msgid "Visit Time To AM/PM"
+msgstr ""
+
+#. module: sfa_customer_update
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_partner__working_days
+#: model:ir.model.fields,field_description:sfa_customer_update.field_res_users__working_days
+msgid "Working Days"
+msgstr "أيام العمل"
+
+#. module: sfa_customer_update
+#: model:ir.actions.act_window,name:sfa_customer_update.customer_category_action
+#: model:ir.model,name:sfa_customer_update.model_customer_category
+#: model:ir.ui.menu,name:sfa_customer_update.customer_category_menu
+msgid "customer category"
+msgstr "فئة العميل"
+
+#. module: sfa_customer_update
+#: model:ir.actions.act_window,name:sfa_customer_update.customer_type_action
+#: model:ir.model,name:sfa_customer_update.model_customer_type
+#: model:ir.ui.menu,name:sfa_customer_update.customer_type_menu
+msgid "customer type"
+msgstr "نوع العميل"
+
+#. module: sfa_customer_update
+#: model_terms:ir.ui.view,arch_db:sfa_customer_update.view_partner_form_inherit_customer_update
+msgid "visit time preference"
+msgstr "التوقيت المفضل للزيارة"

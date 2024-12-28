@@ -1,0 +1,216 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_geography
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-29 15:02+0000\n"
+"PO-Revision-Date: 2024-09-29 15:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_area
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__area_id
+msgid "Area"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__code
+msgid "Area Code"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__name
+msgid "Area Name"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_area
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_area
+msgid "Areas"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_city
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_city
+msgid "Cities"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_city
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__city_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__city_id
+msgid "City"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__code
+msgid "City Code"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__name
+msgid "City Name"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__company_id
+msgid "Company"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__description
+msgid "Description"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields.selection,name:sfa_geography.selection__sfa_territory__state__disable
+msgid "Disable"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields.selection,name:sfa_geography.selection__sfa_territory__state__enable
+msgid "Enable"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_geography
+msgid "Geography"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__id
+msgid "ID"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_region
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__region_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__region_id
+msgid "Region"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__code
+msgid "Region Code"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__name
+msgid "Region Name"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_region
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_region
+msgid "Regions"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_stat
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__stat_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__stat_id
+msgid "Stat"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__code
+msgid "Stat Code"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__name
+msgid "Stat Name"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__state
+msgid "State"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_stat
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_stat
+msgid "Stats"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_territory
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_territory
+msgid "Territories"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_territory
+msgid "Territory"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__code
+msgid "Territory Code"
+msgstr ""
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__name
+msgid "Territory Name"
+msgstr ""

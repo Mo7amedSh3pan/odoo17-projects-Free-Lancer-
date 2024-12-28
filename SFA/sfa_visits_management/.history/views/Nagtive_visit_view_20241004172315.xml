@@ -1,0 +1,21 @@
+<odoo>
+    <!--    tree view-->
+    <record id="view_tree_negative_visit_reasons" model="ir.ui.view">
+        <field name="name">visit.negative.reason.tree</field>
+        <field name="model">visit.negative.reason</field>
+        <field name="arch" type="xml">
+            <tree string="Negative Visit Reasons" editable="bottom">
+                <field name="name" width="20%" />
+                <field name="description" width="80%" />
+            </tree>
+        </field>
+    </record>
+
+    <!--    actions negative_visit_reasons-->
+    <record id="action_negative_visit_reasons" model="ir.actions.act_window">
+        <field name="name">Negative Visit Reasons</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">visit.negative.reason</field>
+        <field name="view_mode">tree</field>
+    </record>
+</odoo>

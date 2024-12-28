@@ -1,0 +1,106 @@
+<odoo>
+    <menuitem
+            id="menu_accounting"
+            name="Accounting"
+            parent="general_accounting_menu"
+            sequence="2"/>
+    <menuitem
+            id="menu_journals"
+            name="Journals"
+            parent="menu_accounting"
+            sequence="1"
+    />
+    <menuitem
+            id="menu_journal_entries"
+            name="Journal Entries"
+            parent="menu_journals"
+            sequence="1"
+            action="account.action_move_journal_line"
+    />
+    <menuitem
+            id="menu_journal_items"
+            name="Journal Items"
+            parent="menu_journals"
+            sequence="2"
+            action="account.action_account_moves_all"
+    />
+
+    <menuitem
+            id="menu_ledgers"
+            name="Ledgers"
+            parent="menu_accounting"
+            sequence="2"
+    />
+    <menuitem
+            id="menu_general_ledger"
+            name="General Ledger"
+            parent="menu_ledgers"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_moves_ledger_general"
+    />
+    <menuitem
+            id="menu_partner_ledger"
+            name="Partner Ledger"
+            parent="menu_ledgers"
+            sequence="2"
+            action="accounting_pdf_reports.action_account_moves_ledger_partner"
+    />
+
+    <menuitem
+            id="menu_management"
+            name="Management"
+            parent="menu_accounting"
+            sequence="3"
+    />
+    <menuitem
+            id="menu_analytic_items"
+            name="Analytic Items"
+            parent="menu_management"
+            sequence="1"
+            action="analytic.account_analytic_line_action_entries"
+    />
+    <menuitem
+            id="menu_budgets"
+            name="Budgets"
+            parent="menu_management"
+            sequence="2"
+            action="om_account_budget.act_crossovered_budget_view"
+    />
+    <menuitem
+            id="menu_assets"
+            name="Assets"
+            parent="menu_management"
+            sequence="3"
+            action="om_account_asset.action_account_asset_asset_form"
+    />
+
+    <menuitem
+            id="menu_general_entries"
+            name="General Entries"
+            parent="menu_accounting"
+            sequence="4"
+    />
+    <menuitem
+            id="menu_general_assets_entries"
+            name="General Assets Entries"
+            parent="menu_general_entries"
+            sequence="1"
+            action="om_account_asset.action_asset_depreciation_confirmation_wizard"
+    />
+
+    <menuitem
+            id="menu_actions"
+            name="Actions"
+            parent="menu_accounting"
+            sequence="5"
+    />
+    <menuitem
+            id="menu_lock_dates"
+            name="Lock Dates"
+            parent="menu_actions"
+            sequence="1"
+            action="om_fiscal_year.action_view_change_lock_date"
+    />
+
+
+</odoo>

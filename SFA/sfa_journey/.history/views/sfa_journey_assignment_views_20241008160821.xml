@@ -1,0 +1,53 @@
+<odoo>
+    <data>
+
+        <record id="view_sfa_journey_assignment_tree" model="ir.ui.view">
+            <field name="name">sfa.journey.assignment.tree</field>
+            <field name="model">sfa.journey.assignment</field>
+            <field name="arch" type="xml">
+                <tree editable='bottom'>
+                    <field name="journey_id"
+                        options=" {'no_create' : True, 'no_create_edit' : True}" />
+                    <field name="salesman_id"
+                        options=" {'no_create' : True, 'no_create_edit' : True}" />
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+        <record id="view_sfa_journey_assignment_tree_without_journey_id" model="ir.ui.view">
+            <field name="name">sfa.journey.assignment.tree.without.journey.id</field>
+            <field name="model">sfa.journey.assignment</field>
+            <field name="arch" type="xml">
+                <tree editable='bottom'>
+                    <field name="journey_id"
+                        options=" {'no_create' : True, 'no_create_edit' : True}"
+                        column_invisible='1' />
+                    <field name="salesman_id"
+                        options=" {'no_create' : True, 'no_create_edit' : True}" />
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_sfa_journey_assignment_search" model="ir.ui.view">
+            <field name="name">view.sfa.journey.assignment.search</field>
+            <field name="model">sfa.journey.assignment</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="salesman_id" />
+                </search>
+            </field>
+        </record>
+
+        <record id="action_sfa_journey_assignment" model="ir.actions.act_window">
+            <field name="name">Salesman Assignment</field>
+            <field name="res_model">sfa.journey.assignment</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <menuitem id="menu_sfa_journey_assignment" name="Salesman Assignment"
+            parent="menu_sfa_journey_root"
+            action="action_sfa_journey_assignment" sequence="12" />
+    </data>
+
+</odoo>

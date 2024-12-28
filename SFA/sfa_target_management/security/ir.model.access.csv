@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_target_type_user,sfa.target.type,model_sfa_target_type,base.group_user,1,1,1,1
+access_target_definition_user,sfa.target.definition,model_sfa_target_definition,base.group_user,1,1,1,1
+access_target_product_line_user,sfa.target.product.line,model_sfa_target_product_line,base.group_user,1,1,1,1

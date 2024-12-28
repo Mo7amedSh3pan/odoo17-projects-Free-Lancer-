@@ -1,0 +1,8 @@
+<odoo>
+    <menuitem
+            id="point_of_sale.menu_pos_dashboard"
+            name="Dashboard"
+            parent="point_of_sale.menu_point_root"
+            sequence="1"
+            action="spreadsheet_dashboard.ir_actions_dashboard_action"/>
+</odoo>

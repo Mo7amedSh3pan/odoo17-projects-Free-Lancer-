@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="action_standard_template" model="ir.actions.act_window">
+        <field name="name">Standard Templates</field>
+        <field name="res_model">sfa.standard.template</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_sfa_rep_request" model="ir.actions.act_window">
+        <field name="name">Rep Request</field>
+        <field name="res_model">sfa.rep.request</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <menuitem id="menu_replenishment" name="Replenishment" parent="stock.menu_stock_root"
+        sequence="5" />
+
+
+    <menuitem id="menu_standard_templates" name="Standard Templates" parent="menu_replenishment"
+        action="action_standard_template" />
+
+    <menuitem id="menu_sfa_rep_request" name="rRep request" parent="menu_replenishment"
+        action="action_sfa_rep_request" />
+
+
+</odoo>

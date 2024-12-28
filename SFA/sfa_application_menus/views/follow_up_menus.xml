@@ -1,0 +1,78 @@
+<odoo>
+    <!-- Add Follow-up menus -->
+
+    <!-- #################################    Start Receivable Menus    ################################# -->
+    <menuitem
+            id="menu_followup_receivable"
+            name="FollowUp"
+            parent="receivables_menu"
+            sequence="3"
+    />
+    <menuitem
+            id="menu_send_letters_and_emails_receivable"
+            name="Send Letters And Emails"
+            parent="menu_followup_receivable"
+            sequence="1"
+            action="om_account_followup.action_om_account_followup_print"
+    />
+    <menuitem
+            id="menu_do_manual_follow_ups_receivable"
+            name="Do Manual Follow-Ups"
+            parent="menu_followup_receivable"
+            sequence="2"
+            action="om_account_followup.action_customer_followup"
+    />
+    <menuitem
+            id="menu_my_follow_ups_receivable"
+            name="My Follow-Ups"
+            parent="menu_followup_receivable"
+            sequence="3"
+            action="om_account_followup.action_customer_my_followup"
+    />
+    <menuitem
+            id="menu_follow_ups_Analysis_receivable"
+            name="Follow-Ups Analysis"
+            parent="menu_followup_receivable"
+            sequence="4"
+            action="om_account_followup.action_followup_stat"
+    />
+    <!-- #################################    End Receivable Menus    ################################# -->
+
+    <!-- #################################    Start Payable Menus    ################################# -->
+    <menuitem
+            id="menu_followup_payable"
+            name="FollowUp"
+            parent="payable_menu"
+            sequence="3"
+    />
+    <menuitem
+            id="menu_send_letters_and_emails_payable"
+            name="Send Letters And Emails"
+            parent="menu_followup_payable"
+            sequence="1"
+            action="om_account_followup.action_om_account_followup_print"
+    />
+    <menuitem
+            id="menu_do_manual_follow_ups_payable"
+            name="Do Manual Follow-Ups"
+            parent="menu_followup_payable"
+            sequence="2"
+            action="om_account_followup.action_customer_followup"
+    />
+    <menuitem
+            id="menu_my_follow_ups_payable"
+            name="My Follow-Ups"
+            parent="menu_followup_payable"
+            sequence="3"
+            action="om_account_followup.action_customer_my_followup"
+    />
+    <menuitem
+            id="menu_follow_ups_Analysis_payable"
+            name="Follow-Ups Analysis"
+            parent="menu_followup_payable"
+            sequence="4"
+            action="om_account_followup.action_followup_stat"
+    />
+    <!-- #################################    End Payable Menus    ################################# -->
+
+</odoo>

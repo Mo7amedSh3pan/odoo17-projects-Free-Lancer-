@@ -1,0 +1,91 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_employees_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 11:54+0000\n"
+"PO-Revision-Date: 2024-10-01 11:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Cash_Limit
+msgid "Cash Limit"
+msgstr "حد التحصيلات"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields.selection,name:sfa_employees_update.selection__hr_employee__Journey_plan_type__constant
+msgid "Constant"
+msgstr "ثابت"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Default_Replenish_method
+msgid "Default Replenish Method"
+msgstr "طريقة اعادة التحميل"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Default_Territory
+msgid "Default Territory"
+msgstr "المنطقة الافتراضية"
+
+#. module: sfa_employees_update
+#: model:ir.model,name:sfa_employees_update.model_hr_employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Enable_order_out_of_route
+msgid "Enable Order Out Of Route"
+msgstr "تمكين الخروج عن المسار"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Journey_plan_type
+msgid "Journey Plan Type"
+msgstr "نوع الرحله"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__O2C_delivery_Operation_Type
+msgid "O2C Delivery Operation Type"
+msgstr "مسار التوصيل"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Offloading_Operation_Type
+msgid "Offloading Operation Type"
+msgstr "نوع التفريغ"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields.selection,name:sfa_employees_update.selection__hr_employee__Journey_plan_type__periodic
+msgid "Periodic"
+msgstr "دوري"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Printer
+msgid "Printer"
+msgstr "الطابعة"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Replenish_Operation_Type
+msgid "Replenish Operation Type"
+msgstr "نوع اعادة التحميل"
+
+#. module: sfa_employees_update
+#: model_terms:ir.ui.view,arch_db:sfa_employees_update.view_employee_form_inherit_customer_update
+msgid "Sales Setting"
+msgstr "إعداد المبيعات"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Van_Number
+msgid "Van Number"
+msgstr "رقم السيارة"
+
+#. module: sfa_employees_update
+#: model:ir.model.fields,field_description:sfa_employees_update.field_hr_employee__Warehouse
+msgid "Warehouse"
+msgstr "مخزن المندوب"

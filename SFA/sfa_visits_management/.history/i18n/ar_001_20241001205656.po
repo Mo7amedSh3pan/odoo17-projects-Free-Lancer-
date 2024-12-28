@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_visits_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 17:56+0000\n"
+"PO-Revision-Date: 2024-10-01 17:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__create_uid
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__create_date
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__description
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__display_name
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__id
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__id
+msgid "ID"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__write_uid
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__write_date
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.actions.act_window,name:sfa_visits_management.action_negative_visit_reasons
+#: model:ir.model,name:sfa_visits_management.model_visit_negative_reason
+#: model:ir.ui.menu,name:sfa_visits_management.menu_negative_visit_reasons
+#: model_terms:ir.ui.view,arch_db:sfa_visits_management.view_tree_negative_visit_reasons
+msgid "Negative Visit Reasons"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_negative_reason__reason_id
+#: model:ir.model.fields,field_description:sfa_visits_management.field_visit_return_reason__reason_id
+msgid "Reason ID"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.actions.act_window,name:sfa_visits_management.action_return_reasons
+#: model:ir.model,name:sfa_visits_management.model_visit_return_reason
+#: model:ir.ui.menu,name:sfa_visits_management.menu_return_reasons
+#: model_terms:ir.ui.view,arch_db:sfa_visits_management.view_tree_return_reasons
+msgid "Return Reasons"
+msgstr ""
+
+#. module: sfa_visits_management
+#: model:ir.ui.menu,name:sfa_visits_management.menu_visit_management
+msgid "Visit Management"
+msgstr ""

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_negative_visit_reason,access_negative_visit_reason,model_visit_negative_reason,,1,1,1,1
+access_visit_return_reason,access_visit_return_reason,model_visit_return_reason,,1,1,1,1
+
+

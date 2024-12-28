@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sfa_journey_user,sfa.journey.user,model_sfa_journey,base.group_user,1,1,1,1
+access_sfa_journey_plan_user,sfa.journey.plan.user,model_sfa_journey_plan,base.group_user,1,1,1,1
+access_sfa_journey_assignment_user,sfa.journey.assignment.user,model_sfa_journey_assignment,base.group_user,1,1,1,1

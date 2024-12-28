@@ -1,0 +1,217 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_geography
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-29 15:02+0000\n"
+"PO-Revision-Date: 2024-09-29 15:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"Language: ar\n"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_area
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__area_id
+msgid "Area"
+msgstr "المنطقة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__code
+msgid "Area Code"
+msgstr "رمز المنطقة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__name
+msgid "Area Name"
+msgstr "اسم المنطقة"
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_area
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_area
+msgid "Areas"
+msgstr "المناطق"
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_city
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_city
+msgid "Cities"
+msgstr "المدن"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_city
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__city_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__city_id
+msgid "City"
+msgstr "المدينة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__code
+msgid "City Code"
+msgstr "رمز المدينة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__name
+msgid "City Name"
+msgstr "اسم المدينة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__create_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__create_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__description
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: sfa_geography
+#: model:ir.model.fields.selection,name:sfa_geography.selection__sfa_territory__state__disable
+msgid "Disable"
+msgstr "تعطيل"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__display_name
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sfa_geography
+#: model:ir.model.fields.selection,name:sfa_geography.selection__sfa_territory__state__enable
+msgid "Enable"
+msgstr "تمكين"
+
+#. module: sfa_geography
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_geography
+msgid "Geography"
+msgstr "الجغرافيا"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__write_uid
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_area__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__write_date
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_region
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__region_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__region_id
+msgid "Region"
+msgstr "القطاع"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__code
+msgid "Region Code"
+msgstr "رمز القطاع"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_region__name
+msgid "Region Name"
+msgstr "اسم القطاع"
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_region
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_region
+msgid "Regions"
+msgstr "القطاعات"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_stat
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_city__stat_id
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__stat_id
+msgid "Stat"
+msgstr "المحافظة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__code
+msgid "Stat Code"
+msgstr "رمز المحافظة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_stat__name
+msgid "Stat Name"
+msgstr "اسم المحافظة"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__state
+msgid "State"
+msgstr "المحافظة"
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_stat
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_stat
+msgid "Stats"
+msgstr "المحافظات"
+
+#. module: sfa_geography
+#: model:ir.actions.act_window,name:sfa_geography.action_sfa_territory
+#: model:ir.ui.menu,name:sfa_geography.menu_sfa_territory
+msgid "Territories"
+msgstr "الأقاليم"
+
+#. module: sfa_geography
+#: model:ir.model,name:sfa_geography.model_sfa_territory
+msgid "Territory"
+msgstr "الإقليم"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__code
+msgid "Territory Code"
+msgstr "رمز الإقليم"
+
+#. module: sfa_geography
+#: model:ir.model.fields,field_description:sfa_geography.field_sfa_territory__name
+msgid "Territory Name"
+msgstr "اسم الإقليم"

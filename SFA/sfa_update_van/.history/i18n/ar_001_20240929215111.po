@@ -1,0 +1,61 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sfa_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240912\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-29 18:49+0000\n"
+"PO-Revision-Date: 2024-09-29 18:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_fleet_vehicle__available_warehouse_ids
+msgid "Available Warehouse"
+msgstr ""
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_fleet_vehicle__capacity_kg
+msgid "Capacity of: Kg"
+msgstr ""
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_fleet_vehicle__capacity_plt
+msgid "Capacity of: PLT"
+msgstr ""
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_fleet_vehicle__capacity_qty
+msgid "Capacity of: Qty"
+msgstr ""
+
+#. module: sfa_update
+#: model:ir.model,name:sfa_update.model_stock_location
+msgid "Inventory Locations"
+msgstr "مواقع المخزون"
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_stock_location__is_salesman_location
+msgid "Is Salesman Location"
+msgstr "مخزن مندوب"
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_stock_location__is_van_location
+msgid "Is VAN Location"
+msgstr "مخزن سيارة"
+
+#. module: sfa_update
+#: model:ir.model,name:sfa_update.model_fleet_vehicle
+msgid "Vehicle"
+msgstr "المركبة"
+
+#. module: sfa_update
+#: model:ir.model.fields,field_description:sfa_update.field_fleet_vehicle__Warehouse_id
+msgid "Warehouse"
+msgstr "المخ"

@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sfa_loyalty,access.sfa.loyalty,model_sfa_loyalty,base.group_user,1,1,1,1
+access_sfa_loyalty_rule,access.sfa.loyalty.rule,model_sfa_loyalty_rule,base.group_user,1,1,1,1
+access_sfa_loyalty_reward,access.sfa.loyalty.reward,model_sfa_loyalty_reward,base.group_user,1,1,1,1
+access_sfa_loyalty_mail,access.sfa.loyalty.mail,model_sfa_loyalty_mail,base.group_user,1,1,1,1
+access_sfa_loyalty_card,access.sfa.loyalty.card,model_sfa_loyalty_card,base.group_user,1,1,1,1
+access_sfa_rebate_calculation,access.sfa.rebate.calculation,model_sfa_rebate_calculation,base.group_user,1,1,1,1
+access_rebate_calculation_lines,access.rebate.calculation.lines,model_rebate_calculation_lines,base.group_user,1,1,1,1
+access_sfa_approval_list_wizard,access.sfa.approval.list.wizard,model_sfa_approval_list_wizard,base.group_user,1,1,1,1
+access_sfa_loyalty_generate_wizard,access.sfa.loyalty.generate.wizard,model_sfa_loyalty_generate_wizard,base.group_user,1,1,1,1

@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sfa_region,access_sfa_region,model_sfa_region,base.group_user,1,1,1,1
+access_sfa_stat,access_sfa_stat,model_sfa_stat,base.group_user,1,1,1,1
+access_sfa_city,access_sfa_city,model_sfa_city,base.group_user,1,1,1,1
+access_sfa_area,access_sfa_area,model_sfa_area,base.group_user,1,1,1,1
+access_sfa_territory,access_sfa_territory,model_sfa_territory,base.group_user,1,1,1,1

@@ -1,0 +1,438 @@
+<odoo>
+
+    <!-- #################################    Start Receivable Menus    ################################# -->
+    <menuitem
+            id="menu_configurations_receivable"
+            name="Configurations"
+            parent="receivables_menu"
+            sequence="5"
+    />
+    <menuitem
+            id="menu_setting_receivable"
+            name="Setting"
+            parent="menu_configurations_receivable"
+            sequence="1"
+            action="account.action_account_config"/>
+    <menuitem
+            id="menu_payment_terms_receivable"
+            name="Payment Terms"
+            parent="menu_configurations_receivable"
+            sequence="2"
+            action="account.action_payment_term_form"/>
+    <menuitem
+            id="menu_bank_accounts_receivable"
+            name="Bank Accounts"
+            parent="menu_configurations_receivable"
+            sequence="3"
+            action="account.action_account_supplier_accounts"
+    />
+    <menuitem
+            id="menu_taxes_receivable"
+            name="Taxes"
+            parent="menu_configurations_receivable"
+            sequence="4"
+            action="account.action_tax_form"
+    />
+    <menuitem
+            id="menu_journals_receivable"
+            name="Journals"
+            parent="menu_configurations_receivable"
+            sequence="5"
+            action="account.action_account_journal_form"
+    />
+    <menuitem
+            id="menu_currency_receivable"
+            name="Currency"
+            parent="menu_configurations_receivable"
+            sequence="6"
+            action="base.action_currency_form"
+    />
+    <menuitem
+            id="menu_tax_group_receivable"
+            name="Tax Group"
+            parent="menu_configurations_receivable"
+            sequence="7"
+            action="account.action_tax_group"
+    />
+    <menuitem
+            id="menu_follow_up_lLevels_receivable"
+            name="Follow up Levels"
+            parent="menu_configurations_receivable"
+            sequence="8"
+            action="om_account_followup.action_om_account_followup_definition_form"
+    />
+    <menuitem
+            id="menu_recurring_payment_receivable"
+            name="Recurring Payment"
+            parent="menu_configurations_receivable"
+            sequence="9"
+            action="om_recurring_payments.action_account_recurring_payment"
+    />
+    <menuitem
+            id="menu_lock_dates_receivable"
+            name="Lock Dates"
+            parent="menu_configurations_receivable"
+            sequence="10"
+            action="om_fiscal_year.action_view_change_lock_date"
+    />
+    <!-- #################################    End Receivable Menus    ################################# -->
+    <!-- #################################    Start payable Menus    ################################# -->
+    <menuitem
+            id="menu_configurations_payable"
+            name="Configurations"
+            parent="payable_menu"
+            sequence="5"/>
+    <menuitem
+            id="menu_setting_payable"
+            name="Setting"
+            parent="menu_configurations_payable"
+            sequence="1"
+            action="account.action_account_config"/>
+    <menuitem
+            id="menu_payment_terms_payable"
+            name="Payment Terms"
+            parent="menu_configurations_payable"
+            sequence="2"
+            action="account.action_payment_term_form"/>
+    <menuitem
+            id="menu_bank_accounts_payable"
+            name="Bank Accounts"
+            parent="menu_configurations_payable"
+            sequence="3"
+            action="account.action_account_supplier_accounts"
+    />
+    <menuitem
+            id="menu_taxes_payable"
+            name="Taxes"
+            parent="menu_configurations_payable"
+            sequence="4"
+            action="account.action_tax_form"
+    />
+    <menuitem
+            id="menu_journals_payable"
+            name="Journals"
+            parent="menu_configurations_payable"
+            sequence="5"
+            action="account.action_account_journal_form"
+    />
+    <menuitem
+            id="menu_currency_payable"
+            name="Currency"
+            parent="menu_configurations_payable"
+            sequence="6"
+            action="base.action_currency_form"
+    />
+    <menuitem
+            id="menu_tax_group_payable"
+            name="Tax Group"
+            parent="menu_configurations_payable"
+            sequence="7"
+            action="account.action_tax_group"
+    />
+    <menuitem
+            id="menu_follow_up_lLevels_payable"
+            name="Follow up Levels"
+            parent="menu_configurations_payable"
+            sequence="8"
+            action="om_account_followup.action_om_account_followup_definition_form"
+    />
+    <menuitem
+            id="menu_recurring_payment_payable"
+            name="Recurring Payment"
+            parent="menu_configurations_payable"
+            sequence="9"
+            action="om_recurring_payments.action_account_recurring_payment"
+    />
+    <menuitem
+            id="menu_lock_dates_payable"
+            name="Lock Dates"
+            parent="menu_configurations_payable"
+            sequence="10"
+            action="om_fiscal_year.action_view_change_lock_date"
+    />
+    <!-- #################################    End payable Menus    ################################# -->
+
+    <!-- #################################    Start General Accounts Menus    ################################# -->
+    <menuitem
+            id="menu_configurations_general_accounting"
+            name="Configurations"
+            parent="general_accounting_menu"
+            sequence="4"/>
+
+    <menuitem
+            id="menu_setting_general_accounting"
+            name="Settings"
+            parent="menu_configurations_general_accounting"
+            sequence="1"
+            action="account.action_account_config"/>
+
+    <menuitem
+            id="menu_invoicing_general_accounting"
+            name="Invoicing"
+            parent="menu_configurations_general_accounting"
+            sequence="2"
+    />
+    <menuitem
+            id="menu_payment_terms_general_accounting"
+            name="Payment Terms"
+            parent="menu_invoicing_general_accounting"
+            sequence="1"
+            action="account.action_payment_term_form"
+    />
+    <menuitem
+            id="menu_Incoterms_general_accounting"
+            name="Incoterms"
+            parent="menu_invoicing_general_accounting"
+            sequence="2"
+            action="account.action_incoterms_tree"
+    />
+
+    <menuitem
+            id="menu_banks_general_accounting"
+            name="Banks"
+            parent="menu_configurations_general_accounting"
+            sequence="3"
+    />
+    <!--    isn't work-->
+    <menuitem
+            id="menu_add_a_bank_account_general_accounting"
+            name="Add a Bank Account"
+            parent="menu_banks_general_accounting"
+            sequence="1"
+    />
+    <menuitem
+            id="menu_reconciliation_models_general_accounting"
+            name="Reconciliation Models"
+            parent="menu_banks_general_accounting"
+            sequence="2"
+            action="account.action_account_reconcile_model"
+    />
+
+    <menuitem
+            id="menu_accounting_general_accounting"
+            name="Accounting"
+            parent="menu_configurations_general_accounting"
+            sequence="4"
+    />
+    <menuitem
+            id="menu_chart_of_accounts_general_accounting"
+            name="Chart of Accounts"
+            parent="menu_accounting_general_accounting"
+            sequence="1"
+            action="account.action_account_form"
+    />
+    <menuitem
+            id="menu_taxes_general_accounting"
+            name="Taxes"
+            parent="menu_accounting_general_accounting"
+            sequence="2"
+            action="account.action_tax_form"
+    />
+    <menuitem
+            id="menu_journals_general_accounting"
+            name="Journals"
+            parent="menu_accounting_general_accounting"
+            sequence="3"
+            action="account.action_account_journal_form"
+    />
+    <menuitem
+            id="menu_currencies_general_accounting"
+            name="Currencies"
+            parent="menu_accounting_general_accounting"
+            sequence="4"
+            action="base.action_currency_form"
+    />
+    <menuitem
+            id="menu_fiscal_positions_general_accounting"
+            name="Fiscal Positions"
+            parent="menu_accounting_general_accounting"
+            sequence="5"
+            action="account.action_account_fiscal_position_form"
+    />
+    <menuitem
+            id="menu_fiscal_year_general_accounting"
+            name="Fiscal Year"
+            parent="menu_accounting_general_accounting"
+            sequence="6"
+            action="om_fiscal_year.actions_account_fiscal_year"
+    />
+    <menuitem
+            id="menu_journal_groups_general_accounting"
+            name="Journal Groups"
+            parent="menu_accounting_general_accounting"
+            sequence="7"
+            action="account.action_account_journal_group_list"
+    />
+    <menuitem
+            id="menu_tax_groups_general_accounting"
+            name="Tax Groups"
+            parent="menu_accounting_general_accounting"
+            sequence="8"
+            action="account.action_tax_group"
+    />
+    <menuitem
+            id="menu_account_tags_general_accounting"
+            name="Account Tags"
+            parent="menu_accounting_general_accounting"
+            sequence="9"
+            action="om_account_accountant.action_account_account_tag"
+    />
+    <menuitem
+            id="menu_account_groups_general_accounting"
+            name="Account Groups"
+            parent="menu_accounting_general_accounting"
+            sequence="10"
+            action="om_account_accountant.action_account_group_action"
+    />
+
+    <menuitem
+            id="menu_online_payments_general_accounting"
+            name="Online Payments"
+            parent="menu_configurations_general_accounting"
+            sequence="5"
+    />
+    <menuitem
+            id="menu_payments_providers_general_accounting"
+            name="Payments Providers"
+            parent="menu_online_payments_general_accounting"
+            sequence="1"
+            action="payment.action_payment_provider"
+    />
+    <menuitem
+            id="menu_payments_methods_general_accounting"
+            name="Payments Methods"
+            parent="menu_online_payments_general_accounting"
+            sequence="2"
+            action="payment.action_payment_method"
+    />
+    <menuitem
+            id="menu_payments_tokens_general_accounting"
+            name="Payments Tokens"
+            parent="menu_online_payments_general_accounting"
+            sequence="3"
+            action="payment.action_payment_token"
+    />
+    <menuitem
+            id="menu_payments_transactions_general_accounting"
+            name="Payments Transactions"
+            parent="menu_online_payments_general_accounting"
+            sequence="4"
+            action="payment.action_payment_transaction"
+    />
+    <menuitem
+            id="menu_payments_methods_second_general_accounting"
+            name="Payments Methods"
+            parent="menu_online_payments_general_accounting"
+            sequence="5"
+            action="om_account_accountant.action_account_payment_method"
+    />
+
+    <menuitem
+            id="menu_management_general_accounting"
+            name="Management"
+            parent="menu_configurations_general_accounting"
+            sequence="6"
+    />
+    <menuitem
+            id="menu_product_categories_general_accounting"
+            name="Product Categories"
+            parent="menu_management_general_accounting"
+            sequence="1"
+            action="product.product_category_action_form"
+    />
+    <menuitem
+            id="menu_budgetary_positions_general_accounting"
+            name="Budgetary Positions"
+            parent="menu_management_general_accounting"
+            sequence="2"
+            action="om_account_budget.open_budget_post_form"
+    />
+    <menuitem
+            id="menu_asset_category_general_accounting"
+            name="Asset Category"
+            parent="menu_management_general_accounting"
+            sequence="3"
+            action="om_account_asset.action_account_asset_asset_list_normal_purchase"
+    />
+
+    <menuitem
+            id="menu_analytic_accounting_general_accounting"
+            name="Analytic Accounting"
+            parent="menu_configurations_general_accounting"
+            sequence="7"
+    />
+    <menuitem
+            id="menu_analytic_distribution_models_general_accounting"
+            name="Analytic Distribution Models"
+            parent="menu_analytic_accounting_general_accounting"
+            sequence="1"
+            action="analytic.action_analytic_distribution_model"
+    />
+    <menuitem
+            id="menu_analytic_accounts_models_general_accounting"
+            name="Analytic Accounts"
+            parent="menu_analytic_accounting_general_accounting"
+            sequence="2"
+            action="analytic.action_account_analytic_account_form"
+    />
+    <menuitem
+            id="menu_analytic_plans_models_general_accounting"
+            name="Analytic Plans"
+            parent="menu_analytic_accounting_general_accounting"
+            sequence="3"
+            action="analytic.account_analytic_plan_action"
+    />
+
+    <menuitem
+            id="menu_financial_reports_general_accounting"
+            name="Financial Reports"
+            parent="menu_configurations_general_accounting"
+            sequence="8"
+    />
+    <menuitem
+            id="menu_account_reports_general_accounting"
+            name="Account Reports"
+            parent="menu_financial_reports_general_accounting"
+            sequence="1"
+            action="accounting_pdf_reports.action_account_financial_report_tree"
+    />
+
+    <menuitem
+            id="menu_follow_up_general_accounting"
+            name="Follow_up"
+            parent="menu_configurations_general_accounting"
+            sequence="9"
+    />
+    <menuitem
+            id="menu_follow_up_levels_general_accounting"
+            name="Follow_up Levels"
+            parent="menu_follow_up_general_accounting"
+            sequence="1"
+            action="om_account_followup.action_om_account_followup_definition_form"
+    />
+
+    <menuitem
+            id="menu_recurring_payment_general_accounting"
+            name="Recurring Payment"
+            parent="menu_configurations_general_accounting"
+            sequence="10"
+    />
+    <menuitem
+            id="menu_recurring_payment_inner_general_accounting"
+            name="Recurring Payment"
+            parent="menu_recurring_payment_general_accounting"
+            sequence="1"
+            action="om_recurring_payments.action_account_recurring_payment"
+    />
+    <menuitem
+            id="menu_recurring_template_general_accounting"
+            name="Recurring Template"
+            parent="menu_recurring_payment_general_accounting"
+            sequence="2"
+            action="om_recurring_payments.action_account_recurring_template"
+    />
+
+    <!-- #################################    End General Accounts Menus    ################################# -->
+
+
+</odoo>
